@@ -89,5 +89,28 @@ bash your_codepath_to_altdiffusion/src/scripts/run_multinode.sh
 
 Inference scripts are located at misc/nb/inference.ipynb, and simply replace the opt.ckpt in them to test different models
 
+## 🆕 Assessments Towards Possible Upgrades
+
+1. Multilingual Text Encoder Design / Distillation
+Develop or distill a multilingual text encoder (e.g., based on mBERT or XLM-R) aligned with the English CLIP embedding space through knowledge distillation. This ensures cross-lingual semantic consistency and enables the model to understand and generate from non-English prompts effectively.
+
+2. Integration into Diffusion Backbone
+Integrate the multilingual encoder with a pretrained English diffusion backbone. Initially, freeze most backbone layers to maintain stability during alignment and prevent catastrophic forgetting of learned visual concepts.
+
+3. Two-Stage Training Strategy
+
+Stage A – Concept Alignment: Fine-tune cross-attention and text-conditioning layers to align multilingual text and visual representations.
+
+Stage B – Quality Enhancement: Unfreeze selective layers for fine-tuning with perceptual and adversarial losses to improve image fidelity, color richness, and compositional coherence.
+
+4. Cultural Augmentation
+Incorporate culturally grounded prompts and region-specific datasets to enhance cultural awareness. Introduce specialized loss functions or weighting schemes to promote accuracy in culturally sensitive or localized visual elements.
+
+5. Efficiency Optimization
+Employ computational efficiency techniques such as pruning, quantization, and low-rank adaptation (LoRA) to reduce memory and computation costs. Leverage knowledge distillation for lightweight deployment on limited GPU setups.
+
+6. Comprehensive Evaluation
+Extend evaluation to include multilingual and culture-aware metrics such as CLIPScore, FID (Fréchet Inception Distance), Inception Score (IS), and human evaluation with culturally informed judges.
+
 
 
