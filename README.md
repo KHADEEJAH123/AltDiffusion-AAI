@@ -1,7 +1,7 @@
 # AltDiffuson
 Available checkpoints of AltDiffusion [m2](https://huggingface.co/BAAI/AltDiffusion), [m9](https://huggingface.co/BAAI/AltDiffusion-m9) and [m18](https://huggingface.co/BAAI/AltDiffusion-m18).
 
-but we use [m18](https://huggingface.co/BAAI/AltDiffusion-m18).
+ We use checkpoint [m18](https://huggingface.co/BAAI/AltDiffusion-m18) of AltDiffusion.
 
 
 ## 🏴 Introduction
