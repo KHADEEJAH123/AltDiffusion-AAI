@@ -99,9 +99,9 @@ Integrate the multilingual encoder with a pretrained English diffusion backbone.
 
 3. Two-Stage Training Strategy
 
-Stage A – Concept Alignment: Fine-tune cross-attention and text-conditioning layers to align multilingual text and visual representations.
+a) Stage A – Concept Alignment: Fine-tune cross-attention and text-conditioning layers to align multilingual text and visual representations.
 
-Stage B – Quality Enhancement: Unfreeze selective layers for fine-tuning with perceptual and adversarial losses to improve image fidelity, color richness, and compositional coherence.
+b) Stage B – Quality Enhancement: Unfreeze selective layers for fine-tuning with perceptual and adversarial losses to improve image fidelity, color richness, and compositional coherence.
 
 4. Cultural Augmentation
 Incorporate culturally grounded prompts and region-specific datasets to enhance cultural awareness. Introduce specialized loss functions or weighting schemes to promote accuracy in culturally sensitive or localized visual elements.
