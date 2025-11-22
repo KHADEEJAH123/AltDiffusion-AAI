@@ -89,13 +89,5 @@ bash your_codepath_to_altdiffusion/src/scripts/run_multinode.sh
 
 Inference scripts are located at misc/nb/inference.ipynb, and simply replace the opt.ckpt in them to test different models
 
-## 📐 Evaluation
-
-/misc/evaluation is the source code for MS-COCO evaluation, including translate script, generation script, and metrics calculation script.
-
-/misc/evaluation_new is the source code for MG-18 evaluation(mentioned in the paper), including translate script, generation script, and metrics calculation script.
-
-/misc/human_evaluaiton is the source code for MC-18 evaluation(mentioned in the paper), including translate script,
-evaluation interface.
 
 
