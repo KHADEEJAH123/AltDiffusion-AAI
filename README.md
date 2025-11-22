@@ -89,7 +89,7 @@ bash your_codepath_to_altdiffusion/src/scripts/run_multinode.sh
 
 Inference scripts are located at misc/nb/inference.ipynb, and simply replace the opt.ckpt in them to test different models
 
-## 🆕 Assessments Towards Possible Upgrades
+## 🆕 Upgrades
 
 1. Multilingual Text Encoder Design / Distillation
 Develop or distill a multilingual text encoder (e.g., based on mBERT or XLM-R) aligned with the English CLIP embedding space through knowledge distillation. This ensures cross-lingual semantic consistency and enables the model to understand and generate from non-English prompts effectively.
