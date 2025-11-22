@@ -1,11 +1,8 @@
 # AltDiffuson
-Source code for paper: ["AltDiffusion: A multilingual Text-to-Image diffusion model"](https://arxiv.org/abs/2308.09991)
+Available checkpoints of AltDiffusion [m2](https://huggingface.co/BAAI/AltDiffusion), [m9](https://huggingface.co/BAAI/AltDiffusion-m9) and [m18](https://huggingface.co/BAAI/AltDiffusion-m18).
 
-Our project is also spported in [FlagAI](https://github.com/FlagAI-Open/FlagAI), [Diffusers](https://github.com/huggingface/diffusers/tree/main/src/diffusers/pipelines/alt_diffusion) and [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+but we use [m18](https://huggingface.co/BAAI/AltDiffusion-m18).
 
-We release the checkpoints of AltDiffusion [m2](https://huggingface.co/BAAI/AltDiffusion), [m9](https://huggingface.co/BAAI/AltDiffusion-m9) and [m18](https://huggingface.co/BAAI/AltDiffusion-m18).
-
-News: Our paper is accepted by AAAI 2024.
 
 ## 🏴 Introduction
 
@@ -101,15 +98,4 @@ Inference scripts are located at misc/nb/inference.ipynb, and simply replace the
 /misc/human_evaluaiton is the source code for MC-18 evaluation(mentioned in the paper), including translate script,
 evaluation interface.
 
-## ✒ Citation
-Please cite our paper if you find it helpful :)
-```
-@misc{ye2023altdiffusion,
-      title={AltDiffusion: A Multilingual Text-to-Image Diffusion Model}, 
-      author={Fulong Ye and Guang Liu and Xinya Wu and Ledell Wu},
-      year={2023},
-      eprint={2308.09991},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
+
